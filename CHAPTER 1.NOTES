@@ -33,6 +33,6 @@ if you are asked for element whose position is -4 -answer- 1
 (vise-versa)
 
 
--tuple- it is the collection of hetrogeneous (different type) elements.
+-tuple- * it is the collection of hetrogeneous (different type) elements.
 -range-
 -string-
