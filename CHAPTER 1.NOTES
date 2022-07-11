@@ -34,7 +34,10 @@ if you are asked for element whose position is -4 -answer- 1
 
 
 -tuple- * it is the collection of hetrogeneous (different type) elements.
-        * items are present at fixed index[position].
-        * symbol ()
+        * items are present at fixed index[position] similar to list.
+        * symbol ().
+                   |
+                   |
+tuple-        
 -range-
 -string-
