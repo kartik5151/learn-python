@@ -1,0 +1,20 @@
+# DOWNLOAD AND INSTALL PYTHON
+
+* Check weather PYTHON is already install or not :-
+TO Check--
+1. Press "window + r"  -- and write "cmd" and run.
+2. In CMD write "py --version".
+3. After the process run following will be shown--
+             
+!             C:\Users\notes>py --version
+!             Python 3.10.4
+
+# if not -
+
+* Download Python form python official website # https://www.python.org/ # and install it.
+again run cmd and type "py --version"
+
+// DONE WITH INSTALLATION 
+
+
+
