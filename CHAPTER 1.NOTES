@@ -30,13 +30,6 @@ this include-
 -complex- contain a real part and imaginary part, e.g- 7 + 5j, 3 - 8i [imaginary part must be in i and j -small-] 
 
 
-
-
-
-
-##-bool- similar to integer as it contain 0 and 1, where *0 is False and 1 is True*.
-
-
 *** Sequence Data-types ***
 Sequence meansa order or ordered collection of items
 this include-
@@ -71,6 +64,13 @@ tuple-       (3, True, 45, "abcd")
         * if range is written as - range(2, 12, 3)
           : this means 2 is staring point and before 12 it will stop and it will skip 3 elements.
           : here, rnage(2, 12, 3) = 2, 5, 8, 11
+
+
+
+##-bool- similar to integer as it contain 0 and 1, where *0 is False and 1 is True*.
+
+
+
 
 
 
