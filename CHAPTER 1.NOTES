@@ -76,7 +76,7 @@ This include-
                    |    |
                   key key value
 imp-   * Muteable elements can not be key. 
-         : object whose id is same after some changes are Muteable. [list,dic,set]
+         : object whose id(memory location) is same after some changes are Muteable. [list,dic,set]
        * if a value is returned in hash function it can be key.
          : to check - write >>> hash(ele)                       //here ele is element
          : it will print element, if not than ele can't key.
