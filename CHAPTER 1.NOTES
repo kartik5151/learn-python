@@ -35,9 +35,10 @@ if you are asked for element whose position is -4 -answer- 1
 
 -tuple- * it is the collection of hetrogeneous (different type) elements.
         * items are present at fixed index[position] similar to list.
-        * symbol ().
-                   |
-                   |
-tuple-        
+        * symbol (), if we write elements without (), than also a tuple.
+                    |
+                    |
+tuple-       (3, True, 45, "abcd")
+              3, 5, 7, 4, 9            //also a tuple
 -range-
 -string-
