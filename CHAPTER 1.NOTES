@@ -146,6 +146,35 @@ This include-
 *async*	  *elif*	    *if*	        *or*	        *yield*
 
 
+-Identifiers- An identifier is a name given to entities like class, functions, variables, etc. It helps to differentiate one entity from another.
+
+//Rules for writing identifiers -
+- Identifiers can be a combination of letters in lowercase (a to z) or uppercase (A to Z) or digits (0 to 9) or an underscore _. Names like myClass, var_1 and print_this_to_screen, all are valid example.
+- An identifier cannot start with a digit. *1variable* is !invalid!, but *variable1* is a !valid! name.
+- Keywords cannot be used as identifiers. //e.g- global = 1
+- We cannot use special symbols like !, @, #, $, % etc. in our identifier.
+- An identifier can be of any length.
+
+! IMPORTANT- Python is a case-sensitive language. This means, Variable and variable are not the same.
+
+
+-Iterable- * In this elements can be return one by one.
+           * for example- list, tuple, set, dict, strings.
+
+-Muteable- * objects whose id (memory location) is same after changes (add or remove element) are called Muteable objects.
+           * list, dic, set are Muteable.
+
+      //EXAMPLE - we have a list and we add some elements in list but id will be same
+      >>> lst = [2, 4, 6, 8]
+      >>> id(ls)                            
+      ... 2529161542464                  // memory location
+      >>> lst.extend([2,4])              // to insert values
+      >>> lst
+      ... [2, 4, 6, 8, 2, 4]              // list with added values
+      >>> id(lst)
+      ... 2529161542464                // same memory location
+
+-Immutable- * objects whose id (memory location) get changes after changes are immutable objets.
 
 
 
