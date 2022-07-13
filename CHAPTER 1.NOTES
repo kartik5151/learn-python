@@ -101,18 +101,52 @@ imp-   * Muteable elements can not be key.
  * collection of distinct elements. [unordered]
  * only hashable values. //to check value use  hash(value)
  * use to remove duplicacy.
+ * written in {}.
 
 This include-
 -Set- * A set is a collection which is unordered, unchangeable.
-      * Note: Set items are unchangeable, but you can remove items and add new items. 
+      * Note: Set items are unchangeable, but you can remove items and add new items.
+      |
+      |1st way of writting set
+#     >>> st = {5, 9, 1}
+#     >>> st
+#     ... (9, 5, 1)  //output is unordered
+
+
 -Frozenset- * frozenset is the same as set except the frozensets are immutable 
            which means that elements from the frozenset cannot be added or removed once created.
+           |
+           |2nd way of writting set
+#          >>> frzn = frozenset([5, 8, 9, 5])
+#          >>> frzn
+#          ... frozenset(8, 5, 9)   // remove duplicacy + unordered
+
+
+***Boolean Type***
+This include-
+-bool- similar to integer as it contain 0 and 1, where *0 is False and 1 is True*.
+      * also a numeric type.
+
+
+      ! IMPORTANT DEFINATIONS !
+
+-KEYWORDS- * Keywords are the reserved words in Python.
+           * We cannot use a keyword as a variable name, function name or any other identifier. They are used to define the syntax and structure of the Python language.
+           * In Python, keywords are case sensitive.
+           * There are 33 keywords in Python.
+           * All the keywords except True, False and None are in lowercase and they must be written as they are. 
+          
+           #The list of all the keywords is given below-
+*False*	  *await*	    *else*	      *import*	    *pass*
+*None*    *break*     *except*	    *in*	        *raise*
+*True*	  *class*	    *finally*	    *is*	        *return*
+*and*	    *continue*  *for*	        *lambda*	    *try*
+*as*	    *def*	      *from*	      *nonlocal*	  *while*
+*assert*	*del*	      *global*	    *not*	        *with*
+*async*	  *elif*	    *if*	        *or*	        *yield*
 
 
 
-
-
-##-bool- similar to integer as it contain 0 and 1, where *0 is False and 1 is True*.
 
 
 
