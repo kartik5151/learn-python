@@ -87,3 +87,36 @@ These operator also work on -bool-
     >=             greater than equal    x >= y 
 //  <=             smaller than equal    x <= y
 
+-----------------------------------------------------------------
+
+    ***Logical Operators***
+
+-Logical operators- are used to combine conditional statements:
+
+!   Operator	Description	                                                  Example	
+    and 	    Returns True if both statements are true	                  x < 5 and  x < 10	
+    or	        Returns True if one of the statements is true	              x < 5 or x < 4	
+    not	        Reverse the result, returns False if the result is true	not   (x < 5 and x < 10)
+
+---------------------------------------------------------------------
+
+  ***Identity Operator***
+
+-Identity operators- *are used to compare the objects, not if they are equal, but if they are actually the same object, with the same memory location:
+                     * used for Identity testing.
+
+!   Operator	Description	                                  Example	
+    is          Returns True if both variables                x is y
+                are the same object
+    is not      Returns True if both variables                x is not y
+                are not the same object            
+
+    //Example
+    >>> a = 34566666                   | >>> f = 3456666
+    >>> b = a                          | >>> h = 3456666
+    >>> a is b                         | >>> f is h
+    ... True                           | ... False
+    => id of a and b is same,          | => id of f and h is different,
+       and return True                 |    and return False
+
+-----------------------------------------------------------------------------
