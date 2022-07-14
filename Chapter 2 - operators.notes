@@ -19,3 +19,71 @@
 #   a + b  |  a - b  |  a * b  |  a / b  |  a // b  |  a % b   |  a ** 2 
      add   |    sub  | multiply| f.divide|  quotient| remainder|  power  
      19    |     7   |    78   |  2.16   |     2    |     1    |  169
+
+These operator also work on -bool-
+
+#   True + True      |       True - True
+          2          |            0
+
+-----------------------------------------------------------------------------------------
+
+# function in numeric type -
+  
+  >>> int("13")                 |>>> int(10.45)
+  ... 13                        |... 10
+  //convert string into integer | float into integer
+
+  >>> float(10)                 |>>> float("10.45)
+  ... 10.00                     |... 10.45
+  // int into float             | string into float
+
+  >>> divmod(21, 5)
+  ... (4, 1)
+  // will return quotient(4) and remainder(1).
+
+  ---------------------------------------------------------------------------------
+
+
+  ***Assignment operator***
+  
+-Assignment operators- are used to assign values to variables:
+
+       =  	x = 5	x = 5
+
+       +=	x += 3	x = x + 3	
+       
+       -=	x -= 3	x = x - 3	
+       
+       *=	x *= 3	x = x * 3	
+       
+       /=	x /= 3	x = x / 3	
+       
+       %=	x %= 3	x = x % 3	
+       
+       //=	x //= 3	x = x // 3	
+       
+       **=	x **= 3	x = x ** 3	
+       
+       &=	x &= 3	x = x & 3	
+       
+       |=	x |= 3	x = x | 3	
+       
+       ^=	x ^= 3	x = x ^ 3	
+       
+       >>=	x >>= 3	x = x >> 3	
+       
+       <<=	x <<= 3	x = x << 3
+-----------------------------------------------------------------------------
+
+    ***Comparison***
+
+-Comparison operators- are used to compare two values:
+
+! operator               Name            example
+    ==                   equal           x == y
+//  !=                 not equal         x != y
+    >                 greater than       x > y
+//  <                 smaller than       x < y
+    >=             greater than equal    x >= y 
+//  <=             smaller than equal    x <= y
+
