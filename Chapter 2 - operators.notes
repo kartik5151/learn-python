@@ -1,0 +1,21 @@
+***Operators in python***
+
+-Operators- * are used to perform operations on variables and values.
+            
+            *Python divides the operators in the following groups:
+             - Arithmetic operators
+             - Assignment operators
+             - Comparison operators
+             - Logical operators
+             - Identity operators
+             - Membership operators
+             - Bitwise operators
+
+-Arithmetic oprators- * Arithmetic operators are used with numeric values to perform common mathematical operations:
+     //With example- we have two variable "a" and "b", and we will perform different arithmetic operators on them.
+     a = 13
+     b = 6
+
+#   a + b  |  a - b  |  a * b  |  a / b  |  a // b  |  a % b   |  a ** 2 
+     add   |    sub  | multiply| f.divide|  quotient| remainder|  power  
+     19    |     7   |    78   |  2.16   |     2    |     1    |  169
