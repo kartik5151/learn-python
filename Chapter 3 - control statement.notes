@@ -1,0 +1,11 @@
+-Control Flow Statement- use to control execution order.
+                    - for loop
+                    - while loop
+                    - if statement 
+                    - conditionless expression
+
+---------------------------------------------------------------------------------------------
+
+    # for loop # 
+    - mostly use if we have itrables and to count the numbers
+    - print the  number one by one.
