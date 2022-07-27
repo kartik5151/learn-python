@@ -120,3 +120,39 @@ These operator also work on -bool-
        and return True                 |    and return False
 
 -----------------------------------------------------------------------------
+
+  ***Membership Operator***
+
+-Membership Operator- *are used to test if a sequence is presented in an object.
+
+!    Operator	  Description	                                Example	
+    in 	          Returns True if a sequence with the           x in y
+                  specified value is present in the 
+                  object.		
+    not in	      Returns True if a sequence with the           x not in y
+                  specified value is not present in the 
+                  object.
+
+    //Example
+    >>> 3 in [3, 7, 8,9]              |>>> 6 in [3, 7, 8, 9]
+    ... True                          |... False
+    =>3 is in the list,               |=> 6 is not in the list,
+      so, it will return True.        |   and it will return False.  
+
+-------------------------------------------------------------------------------------
+
+  ***Bitwise Operators***
+
+-Bitwise Operators- *are used to compare (binary) numbers:
+
+!    Operator	Name	       Description
+     & 	        AND	           Sets each bit to 1 if both bits are 1
+     |	        OR	           Sets each bit to 1 if one of two bits is 1
+     ^	        XOR	           Sets each bit to 1 if only one of two bits is 1
+     ~ 	        NOT	           Inverts all the bits
+     <<	        Zero fill      Shift left by pushing zeros in from the right and let the leftmost bits fall off
+                left shift	
+     >>	        Signed right   Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off 
+                shift	
+
+----------------------------------------------------------------------------------------------
